@@ -37,6 +37,26 @@ Elderly Companion AI is a proof-of-concept (PoC) application designed to support
   - [Heroku](https://www.heroku.com/): To host the application.
 
 ---
+## Project Structure
+
+elderly-companion-ai/
+├── notebooks/                  # Jupyter notebooks for experimentation
+├── app/
+│   ├── main.py                 # Entry point of the app
+│   ├── api/                    # API routes (e.g., reminders, checks)
+│   ├── core/                   # App configurations and dependencies
+│   ├── models/                 # Database models
+│   ├── services/               # Functional services (TTS, recommendations, etc.)
+│   ├── static/                 # Static files (avatars, etc.)
+│   └── templates/              # HTML templates (if needed)
+├── database/                   # Database initialization and files
+├── tests/                      # Unit and integration tests
+├── pyproject.toml              # Poetry configuration
+├── README.md                   # Project overview
+├── .gitignore                  # Ignored files
+└── Procfile                    # Heroku deployment file
+
+
 
 ## Installation and Setup
 
@@ -44,3 +64,4 @@ Elderly Companion AI is a proof-of-concept (PoC) application designed to support
 ```bash
 git clone https://github.com/<your-username>/elderly-companion-ai.git
 cd elderly-companion-ai
+
