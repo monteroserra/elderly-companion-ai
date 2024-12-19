@@ -69,7 +69,7 @@ elderly-companion-ai/
 ├── README.md                   # Project overview
 ├── .gitignore                  # Ignored files
 
-
+```
 
 ## Installation and Setup
 
