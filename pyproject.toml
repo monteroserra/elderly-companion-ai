@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "elderly-companion-ai"
+version = "0.1.0"
+description = "An AI Powered APP to act as a companion for elderly"
+authors = ["Ignasi Montero Serra <monteroserra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+openai = "^1.58.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
